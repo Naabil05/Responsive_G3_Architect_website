@@ -1,1 +1,134 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Shared styles */
+.display-flex {
+    display: flex;
+}
+
+/* Dark 01 */
+.text-black {
+    color: #131313;
+}
+
+/* Dark 02 */
+.text-gray {
+    color: #424242;
+}
+
+/* Dark 03 */
+.text-light-gray {
+    color: #727272;
+}
+
+.bg-light {
+    background: rgba(255, 144, 14, 0.10);
+    height: 920px;
+    margin-bottom: 60px;
+}
+
+.btn-primary {
+    border-radius: 6px;
+    background: #FF900E;
+    color: #FFF;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 1.25rem 1.5rem;
+    border: none;
+    margin-bottom: 35px;
+}
+
+/* Header Styles */
+
+
+
+/* Navbar related styles */
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.brand {
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navbar,
+.banner,
+.img-container {
+    width: 994px;
+    margin: 0 auto;
+
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--Dark-02, #424242);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 345;
+    line-height: 18px;
+
+}
+
+.nav-links {}
+
+
+/* Banner Related Style */
+
+.banner-content {
+    max-width: 595px;
+    margin: 0 auto;
+}
+
+.btn {
+    text-align: center;
+}
+
+.banner-title {
+    font-family: Work Sans;
+    font-size: 2.75rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.banner-description {
+
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 0.68rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.125rem;
+    margin-bottom: 22px;
+
+}
+
+.img-style {
+    width: 100%;
+}
