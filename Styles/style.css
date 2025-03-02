@@ -132,3 +132,137 @@
 .img-style {
     width: 100%;
 }
+
+@media screen and (max-width:576px) {
+
+    .navbar,
+    .nav-links {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bg-light {
+        height: auto;
+        width: 100%;
+    }
+
+    .navbar,
+    .banner,
+    .img-container {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .brand {
+        text-align: center;
+        font-family: "Work Sans";
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 0;
+        /* padding-bottom: 0; */
+    }
+
+    .nav-link {
+        text-decoration: none;
+        color: var(--Dark-02, #424242);
+        text-align: center;
+        font-family: "Work Sans";
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 345;
+        line-height: 10px;
+
+    }
+
+    .banner-title {
+        font-family: Work Sans;
+        font-size: 1.50rem;
+        font-weight: 700;
+        line-height: 2rem;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .banner-description {
+
+        text-align: center;
+        margin-bottom: 22px;
+        padding: 0 2rem;
+
+    }
+
+    .btn-primary {
+        border-radius: 6px;
+        font-size: 0.50rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding: .75rem 1rem;
+        border: none;
+        margin-bottom: 35px;
+    }
+
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .bg-light {
+        height: auto;
+        width: 100%;
+    }
+
+    .navbar,
+    .banner,
+    .img-container {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .brand {
+        text-align: center;
+        font-family: "Work Sans";
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-left: 20px;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        color: var(--Dark-02, #424242);
+        text-align: center;
+        font-family: "Work Sans";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 345;
+        line-height: 12px;
+
+    }
+
+    .banner-title {
+        font-family: Work Sans;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 2.5rem;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .btn-primary {
+        border-radius: 6px;
+        font-size: 0.70rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding: 1rem 1.25rem;
+        border: none;
+        margin-bottom: 35px;
+    }
+
+}
