@@ -71,8 +71,9 @@
 
 .navbar,
 .banner,
-.img-container {
-    width: 994px;
+.img-container,
+main {
+    max-width: 994px;
     margin: 0 auto;
 
 }
@@ -93,8 +94,6 @@
     line-height: 18px;
 
 }
-
-.nav-links {}
 
 
 /* Banner Related Style */
@@ -133,10 +132,71 @@
     width: 100%;
 }
 
+main>section {
+    margin-bottom: 90px;
+}
+
+/* teams and features related styles */
+.teams {
+    align-items: center;
+    gap: 50px;
+}
+
+.team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+
+}
+
+.team-img-container img {
+    width: 236px;
+}
+
+.our-features {
+    max-width: 371px;
+}
+
+.feature-title #quick-list {
+    font-family: "Work Sans";
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.feature-title #of-our {
+    font-family: "Work Sans";
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.feature-title #features {
+    color: #FF900E;
+    font-family: "Work Sans";
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.feature-description {
+    font-family: "Work Sans";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 22px;
+}
+
+
 @media screen and (max-width:576px) {
 
     .navbar,
-    .nav-links {
+    .nav-links,
+    .teams {
         flex-direction: column;
         gap: 20px;
         justify-content: center;
@@ -207,9 +267,42 @@
         margin-bottom: 35px;
     }
 
+    .team-img-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .our-features {
+        margin: 0 20px;
+    }
+
+    .feature-title #quick-list {
+        font-family: "Work Sans";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .feature-title #of-our {
+        font-family: "Work Sans";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .feature-title #features {
+        font-family: "Work Sans";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
 }
 
 @media screen and (min-width:576px) and (max-width:768px) {
+
     .bg-light {
         height: auto;
         width: 100%;
@@ -265,4 +358,59 @@
         margin-bottom: 35px;
     }
 
+    .teams {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .team-img-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .our-features {
+        margin: 0 20px;
+    }
+
+    .feature-title #quick-list {
+        font-family: "Work Sans";
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .feature-title #of-our {
+        font-family: "Work Sans";
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .feature-title #features {
+        font-family: "Work Sans";
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .bg-light {
+        height: auto;
+        width: 100%;
+    }
+
+    .navbar,
+    .banner,
+    .img-container {
+        width: 100%;
+        margin: 0 auto;
+
+    }
 }
